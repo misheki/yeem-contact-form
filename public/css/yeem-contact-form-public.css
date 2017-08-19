@@ -1,0 +1,249 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ form.contactform{
+
+ }
+
+form.contactform p{
+    width: 90%;
+}
+
+form.contactform .contact-submit{
+    width: 150px;
+    background-color: #3D91D6;
+    color: white;
+}
+
+form.contactform .contact-submit input:hover{
+    border: 2px solid #3D91D6;
+    background-color: #3D91D6;
+}
+
+form.contactform input{
+    background-color: white;
+    border: 2px solid #3D91D6;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0 10px 0 10px;
+    width: 100%;
+}
+
+form.contactform input.calendar {
+    background-image: url('../../img/calendar.png');
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 8%;
+    cursor: pointer;
+}
+
+form.contactform input:hover, textarea:hover {
+    border: 2px solid #3D91D6;
+}
+
+form.contactform textarea{
+    width: 100%;
+    background-color: white;
+    border: 2px solid #3D91D6;
+    height: 180px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 0 10px 0 10px;
+}
+
+form.contactform label {
+    color:    #2E2E2E;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+form.contactform label.error {
+  font-weight:normal;
+  font-size: 1em;
+  color: red;
+  float: right;
+}
+
+form.contactform input[type="checkbox"] {
+    border: 2px solid #3D91D6;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius:4px;
+    -webkit-appearance:button;
+    white-space: nowrap;
+    overflow:hidden;
+    width:15px;
+    height:15px;
+}
+
+form.contactform input[type=checkbox]:checked {
+    background-color:#000000;
+}
+
+form.contactform input[type=checkbox]:hover {
+    box-shadow:0px 0px 10px #1300ff;
+}
+
+form.contactform input[type="radio"] {
+    border: 2px solid #3D91D6;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius:15px;
+    -webkit-appearance:button;
+    white-space: nowrap;
+    overflow:hidden;
+    width:15px;
+    height:15px;
+}
+
+form.contactform input[type=radio]:checked {
+    background-color:#000000;
+}
+
+form.contactform input[type=radio]:hover {
+    box-shadow:0px 0px 10px #1300ff;
+}
+
+div#ConfirmationMsg {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    padding: 20px;
+    margin:10px;
+    border: 1px dotted #d2d2d2;
+}
+
+form.contactform td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+div.captchaSection {
+    color: crimson;
+    font-size: 15px;
+    width: 90%;
+    border: 2px solid crimson;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border-radius: 4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+}
+
+div.captchaSection input{
+    display: inline-block !important;
+    border: 2px solid crimson;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    padding: 3px;
+    width: 20%;
+}
+
+input[placeholder] {
+    color:    #2E2E2E;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-overflow:ellipsis;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #2E2E2E;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-overflow: ellipsis;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #2E2E2E;
+   opacity:  1;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-overflow: ellipsis;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #2E2E2E;
+  opacity:  1;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-overflow: ellipsis;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    #2E2E2E;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-overflow: ellipsis;
+}
+
+select.dropdownselect {
+  height: 60px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  padding: 0 10px 0 10px;
+  border: 2px solid #3D91D6;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  background: white;
+  color:#2E2E2E;
+  outline:none;
+  display: inline-block;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor:pointer;
+  float: left;
+  background-image: url('../../img/down-arrow.png');
+  background-repeat:no-repeat;
+  background-position: right;
+  background-size: 8%;
+}
+
+p.withoptions {
+  width: 100%;
+  background-color: white;
+  border: 2px solid #3D91D6;
+  padding: 10px;
+  border-radius: 4px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+}
+
+.choices {
+  font-size: 16px;
+  font-weight: bold;
+  color:#2E2E2E;
+  display: block;
+}
+
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

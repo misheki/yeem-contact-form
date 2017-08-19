@@ -1,0 +1,115 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.holder h2{
+    font-size: 2em;
+}
+
+.left {
+    width: 100%;
+    border: 2px solid #A2A2A2;
+    padding: 10px;
+}
+
+.left a {
+    display: inline-block;
+    font-weight:800;
+    text-align: center;
+    width: 80%;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid #D2D2D2;
+    background-color: whitesmoke;
+}
+
+.left a:hover {
+    text-decoration: none;
+    background-color: aliceblue;
+}
+
+.left ul {
+    width: 80%;
+}
+
+.left ul li {
+    width: 25%;
+    float:left;
+}
+
+.right {
+    width: 100%;
+    padding: 5px;
+}
+
+.right div.intro {
+    color: #222;
+    margin: 0 0 10px 0;
+}
+
+.field {
+    background-color:gainsboro;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.right .submit {
+    padding: 10px;
+}
+
+.right button.remove {
+    position: relative;
+    float: left;
+    color: red;
+    padding: 10px 5px 10px 2px;
+    border: 0;
+    background-color: gainsboro;
+    box-shadow:none;
+    border-radius: 0px;
+}
+
+.right .fieldTypeText {
+    display: inline-block;
+    width: 30%;
+    margin: 2px;
+    padding: 2px 2px 2px 10px;
+    border-left: 2px solid dimgray;
+    color:dimgray;
+}
+
+.right .displayText {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+}
+
+.right .reqCheckbox {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+}
+
+.right .optionTypeText {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px 2px 2px 10px;
+    border-left: 2px solid dimgray;
+    color:dimgray;
+    font-weight: normal;
+}
+
+.options ul {
+    margin-left: 5%;
+    font-weight: normal;
+  }
+
+span.infoicon {
+    padding: 0 5px 0 10px;
+    font-size: 18px;
+}
+
+
+.glyphicon.glyphicon-trash {
+    font-size: 1em;
+}
